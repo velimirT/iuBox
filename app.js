@@ -22,7 +22,7 @@ child = exec("sudo bash start_stream.sh", function(error, stdout, stderr){});
 
 //Whenever someone connects this gets executed
 io.on('connection', function(socket){
-  console.log('A user connected');
+  console.log('3drasti 6efe!!');
   
   socket.on('pos', function (msx, msy) {
     console.log('X:' + msx + ' Y: ' + msy);
